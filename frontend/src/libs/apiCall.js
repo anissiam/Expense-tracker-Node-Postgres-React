@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = `http://localhost:5000/api-v1`;
+const API_URL = `https://expense-tracker-node-postgres-react.onrender.com/api-v1`;
 
 const api = axios.create({
   baseURL: API_URL,
@@ -15,3 +15,4 @@ export function setAuthToken(token) {
 }
 
 export default api;
+
