@@ -34,7 +34,7 @@ const SettingsForm = () => {
   const [query, setQuery] = useState("");
   const [countriesData, setCountriesData] = useState([]);
   const [loading, setLoading] = useState(false);
-
+//
   const submitHandler = async (data) => {
     try {
       setLoading(true);
